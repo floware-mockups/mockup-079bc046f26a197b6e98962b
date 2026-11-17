@@ -1,0 +1,160 @@
+{
+  "title": "Gestione delle manutenzioni del verde pubblico",
+  "description": "Prototipo per registrare, filtrare e aggiornare le richieste di manutenzione del verde per quartiere e priorità. Dati dimostrativi inventati.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo",
+      "description": "Panoramica delle richieste e delle attività di manutenzione.",
+      "metrics": [
+        {
+          "label": "Richieste aperte",
+          "value": "18"
+        },
+        {
+          "label": "Priorità alta",
+          "value": "4"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "7"
+        },
+        {
+          "label": "Completate nel mese",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Quartiere",
+        "Richieste aperte"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "6"
+        ],
+        [
+          "Vela",
+          "5"
+        ],
+        [
+          "Nubi",
+          "4"
+        ],
+        [
+          "Brina",
+          "3"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "richieste",
+      "title": "Richieste di manutenzione",
+      "description": "Elenco filtrabile per quartiere, priorità e stato; selezionando una riga si può consultare o aggiornare la richiesta.",
+      "metrics": [],
+      "columns": [
+        "Codice",
+        "Area verde",
+        "Quartiere",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ],
+      "rows": [
+        [
+          "RV-101",
+          "Giardino delle Lanterne",
+          "Lumo",
+          "Potatura alberi",
+          "Alta",
+          "Da assegnare",
+          "2025-03-04"
+        ],
+        [
+          "RV-102",
+          "Parco delle Vele",
+          "Vela",
+          "Riparazione panchina",
+          "Media",
+          "In lavorazione",
+          "2025-03-05"
+        ],
+        [
+          "RV-103",
+          "Prato delle Nuvole",
+          "Nubi",
+          "Raccolta rami",
+          "Bassa",
+          "Completata",
+          "2025-03-06"
+        ],
+        [
+          "RV-104",
+          "Bosco dei Cristalli",
+          "Brina",
+          "Controllo irrigazione",
+          "Media",
+          "Da assegnare",
+          "2025-03-07"
+        ],
+        [
+          "RV-105",
+          "Giardino delle Lanterne",
+          "Lumo",
+          "Rimozione ramo pericolante",
+          "Alta",
+          "In lavorazione",
+          "2025-03-08"
+        ],
+        [
+          "RV-106",
+          "Parco delle Vele",
+          "Vela",
+          "Sfalcio prato",
+          "Bassa",
+          "Da assegnare",
+          "2025-03-09"
+        ],
+        [
+          "RV-107",
+          "Prato delle Nuvole",
+          "Nubi",
+          "Potatura siepe",
+          "Media",
+          "In lavorazione",
+          "2025-03-10"
+        ],
+        [
+          "RV-108",
+          "Bosco dei Cristalli",
+          "Brina",
+          "Riparazione staccionata",
+          "Media",
+          "Completata",
+          "2025-03-11"
+        ]
+      ],
+      "form": [
+        "Codice",
+        "Area verde",
+        "Quartiere",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ]
+    },
+    {
+      "id": "nuova-richiesta",
+      "title": "Nuova richiesta",
+      "description": "Inserisci una richiesta di manutenzione del verde pubblico.",
+      "metrics": [],
+      "columns": [],
+      "rows": [],
+      "form": []
+    }
+  ]
+}
